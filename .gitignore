@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# How to push the into the Git
+# git init
+# git add .
+# git commit -m "Initial commit"
+# git branch -M main
+# git remote add origin https://github.com/yourusername/projectname.git
+# git push -u origin main

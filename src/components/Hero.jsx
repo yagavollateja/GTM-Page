@@ -5,7 +5,7 @@ import HeroImg from './../assets/heroimage1.png'
 import { AiOutlineSafety } from "react-icons/ai";
 export default function Hero() {
     return (
-        <section className="py-5 bg-white mt-5 mb-5">
+        <section className="py-5 bg-white mt-5 mb-5" id="hero">
             <div className="container">
                 <div className="row align-items-center p-4">
                     <div className="col-md-6">

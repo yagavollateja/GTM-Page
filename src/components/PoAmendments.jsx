@@ -3,7 +3,7 @@ import { IoWarningOutline } from "react-icons/io5";
 import { LuPackageX } from "react-icons/lu";
 export default function PoAmbedments() {
     return (
-        <section>
+        <section id='Solutionso'>
             <div className="text-white mt-3 p-5" style={{backgroundColor:"#0B1B2B"}}>
                 <div className="container mt-5">
                     <h1 className="text-white text-center fw-bold">What Manual PO Amendments Are Really Costing You</h1>

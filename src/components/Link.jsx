@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Link({name}) {
+export default function Link({name,dest}) {
+    dest='#'+dest
     return (
-        <a href="#" className="text-decoration-none text-secondary"> {name}</a>
+        <a href={dest} className="text-decoration-none text-secondary"> {name}</a>
     )
 }

@@ -6,9 +6,8 @@ import { LuLayers } from "react-icons/lu";
 
 export default function Navbar() {
     const navData = ['Features','Solutions','Resources']
-
     return (
-        <nav className="bg-white border-bottom py-3">
+        <nav className="bg-white border-bottom py-3" id='Features'>
             <div className="container d-flex justify-content-between align-items-center">
 
                 {/* Logo */}
@@ -25,7 +24,7 @@ export default function Navbar() {
                 {/* Nav Links */}
                 <div className="d-flex align-items-center gap-4">
                     {navData.map((value,i)=>(
-                        <Link key={i} name={value}/>
+                        <Link key={i} name={value} dest={navData[i]}/>
                     ))}
                     <Button value="Book Demo" color="primary"/>
                 </div>

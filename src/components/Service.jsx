@@ -24,7 +24,7 @@ export default function Service() {
         }        
     ]
     return (
-        <div className="contaner mt-5 p-4 h-100" style={{backgroundColor:"#F1F5F9"}}>
+        <div className="contaner mt-5 p-4 h-100" id='Resources' style={{backgroundColor:"#F1F5F9"}}>
             <div className="text-center py-5 h-50">
                 <h1 className="fw-bold">Start Improving Today — Zero Cost.Zero Risk. </h1>
                 <p className="text-muted mt-3">Instant downloaded.Immediate workflow improvements.</p>
