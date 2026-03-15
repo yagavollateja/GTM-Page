@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from './Button'
 import Image from './Image'
-import HeroImg from './../assets/heroimage1.png'
+import OfficeWork from './../assets/officeWork.png'
+import Analytics from './../assets/analytics.png'
 import { AiOutlineSafety } from "react-icons/ai";
 export default function Hero() {
     return (
@@ -29,8 +30,8 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="col-md-6 text-center d-flex justify-content-center align-items-center gap-2">
-                        <Image url="https://img.e-xiste.com/insecure/q:80/format:webp/plain/https://storage.googleapis.com/zimo-photos/photo_9f40bafc-5fb2-4b8e-b83b-45b0b4fd8d9f.png"/>
-                        <Image url="https://img.e-xiste.com/insecure/q:80/format:webp/plain/https://storage.googleapis.com/zimo-photos/photo_9f40bafc-5fb2-4b8e-b83b-45b0b4fd8d9f.png"/>
+                        <Image url={OfficeWork}/>
+                        <Image url={Analytics}/>
                     </div>
 
                 </div>

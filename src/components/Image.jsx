@@ -6,7 +6,7 @@ export default function Image({url}) {
             src={url}
             alt="Hero"
             className="img-fluid rounded shadow-sm"
-            style={{maxHeight:"520px",width:"300px"}}
+            style={{maxHeight:"420px",width:"300px"}}
         />
     )
 }
